@@ -54,4 +54,9 @@ window.addEventListener('load', event => {
     console.log('The website is loaded')
 })
 
-
+//click
+navLinks.forEach(item => {
+    item.addEventListener('click', event => {
+        event.preventDefault()
+    })
+})
